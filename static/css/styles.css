@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto Slab", system-ui;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: url("../images/bg.jpg") no-repeat rgba(150, 180, 201, 0.2); 
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+clear:both;
+line-height: 1.5em;
+color:aliceblue;
+font-size:2em;
+}
+
+.H1_main{
+    clear:both;
+    display: block;
+    width: 98%;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    width: 98%;
+    border: 5.2px #ccc dotted;
+}
+
+.image-container {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #2c2b2b;
+    border-radius: 8px;
+    background-color: rgba(240, 224, 209, 0.6);
+    display: inline-block;
+}
+
+.image-container .btn-success{
+    border: 0.6px solid #757272;
+    border-radius: 8px;
+    background-color: rgba(240, 224, 209, 0.6);
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+button
+{
+    padding: 12px;
+    color: #110e0e;
+   
+}
+
+p.img_name{
+    background-color: rgba(87, 37, 39, 0.2);
+    border: 1px #5c5757 solid;
+    padding: 10px;
+    color: rgb(26, 44, 48);
+    border-radius: 5px;
+    margin: 5%;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.form1_style{
+    clear: both;
+    padding: 30px;
+    background-color: rgba(8,130,162,0.4);
+    border-radius: 10px;
+    margin: 10px auto;
+    border: 2px #e97b5f solid;
+    color:antiquewhite;
+}
+
+.form1_style button{
+    border-radius: 8px;
+    border:1px #4b3c18 solid;
+    padding: 10px;
+}
+
+.form1_style input{
+    border-radius: 8px;
+    border:1px #f7f2e8 solid;
+    padding: 10px;
+}
+
+#footer {
+    margin-top: 160px;
+}
+
+#footer .inner{
+position: fixed;
+       left: 0;
+ width: 100%;
+background-color: rgb(150, 0, 16, 0.6);
+color: white;
+    text-align: center;
+    clear:both;
+    display: block;
+    margin: 10px auto 0px;
+    padding: 0.7em 0px;
+    border-top:1px #d6c6c6 solid;
+    overflow:hidden; 
+    bottom: 0;
+}
+
+#footer ul li{
+    display: inline;
+}
+
+#footer .icons a{
+    font-size: 1.8em;
+    color: #f6fd96;
+    text-decoration: none!important;
+    margin: 5px 10px;
+}
+
+#footer a{
+    color: #f6fd96;
+    text-decoration: none!important;
+}
+
+#footer a:hover{
+    color: #505233;
+    transform: scale(1);
+}
+
+.back_butt{
+    float: right;
+    margin: 26px;
+    padding:16px;
+    border-end-end-radius: 10px;
+    background-color: rgba(240, 224, 209, 0.8);
+}

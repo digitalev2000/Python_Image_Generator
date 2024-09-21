@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Generate Image</title>
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <h1 class="H1_main">Upload Image to Generate Variations</h1>
+    <div class="form1_style">
+    <!-- Form to upload an image -->
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="file">Choose an image to upload:</label>
+        <input type="file" name="file" id="file" accept="image/*" required>
+        <button type="submit">Upload and Generate</button>
+    </form>
+</div>
+
+<script>
+    window.onload = function DateSet() {
+    const d = new Date();
+    let year = d.getFullYear();
+    document.getElementById("yearTxt").innerHTML = year; 
+    };
+</script>
+
+<footer id="footer">
+    <div class="inner">
+      <ul class="icons">
+        <li><a href="https://github.com/digitalev2000" class="fa fa-github"><span class="label"></span></a></li>
+        <li><a href="https://dribbble.com/berry_richard" class="fa fa-dribbble"><span class="label"></span></a></li>
+        <li><a href="mailto:berry.richard1@gmail.com" class="fa fa-envelope"><span class="label"></span></a></li>
+      </ul>
+     
+      <ul class="copyright">
+        <li>&copy; <span id="yearTxt"></span> Richard B.</li><li>Design: <a href="http://www.letsbuildwebsites.net/">Lets Build Websites</a> LLC.</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
