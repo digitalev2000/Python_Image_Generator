@@ -4,14 +4,15 @@ Step 1: Go to workspace
 cd "to your project directory\pod-image-variation"
 
 
-Step 2: Activate the evironment and run the app.y file
+Step 2: Activate the evironment for the project
 Scripts\activate
-python app.py 
+Read More > https://docs.python.org/3/tutorial/venv.html
 
 
 Step 3: Install > 
 pip install Pillow glob2
 pip install flask
+Read More > https://packaging.python.org/en/latest/tutorials/installing-packages/
 
 
 Step 4:Run > 
